@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.logo{
+ margin: auto;
+ width: 50%;
+ padding: 140px 0;
+ text-align: center;
+}
+input{
+    width: 400px;
+    padding:15px 50px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) no-repeat,url(search.svg) no-repeat;
+    background-position: right 15px center ,left 15px center;
+    background-size: 23px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 2px 3px 4px 2px #ccc;
+}
+.search{
+    padding-top: 20px;
+}
+.container{
+    margin-top: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px ;
+    border: none;
+    color:#5f6368
+}
+.btn:focus{
+outline: none;
+}
+.lang{
+    margin-top: 30px;
+}
+.language{
+    list-style: none;
+}
+.language li{
+    display: inline;
+   margin-right: 10px;
+  font-size: 12px;
+}
+.language li a{
+    text-decoration: none;
+   
+}
+footer{
+    width: 100%;
+  background-color: #f2f2f2;
+  position: fixed;
+  border-top: 1px solid #e4e4e4;
+  padding: 15px;
+  
+}
+footer>ol>li{
+    display: inline;
+    padding-right: 15px;
+    color:#676767;
+    font-size: 13px;
+
+
+}
